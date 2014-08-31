@@ -1,0 +1,26 @@
+C:\Users\James\Documents\Cyber Sharks\JamesTest2\JamesTest2\bin\Debug\Red Shed Inventory.mdb
+C:\Users\James\Documents\Cyber Sharks\JamesTest2\JamesTest2\bin\Debug\JamesTest2.exe.config
+C:\Users\James\Documents\Cyber Sharks\JamesTest2\JamesTest2\bin\Debug\JamesTest2.exe
+C:\Users\James\Documents\Cyber Sharks\JamesTest2\JamesTest2\bin\Debug\JamesTest2.pdb
+C:\Users\James\Documents\Cyber Sharks\JamesTest2\JamesTest2\obj\Debug\REDSHED.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Cyber Sharks\JamesTest2\JamesTest2\obj\Debug\Interop.MSDAOSP.dll
+C:\Users\James\Documents\Cyber Sharks\JamesTest2\JamesTest2\obj\Debug\Interop.OLEDBError.dll
+C:\Users\James\Documents\Cyber Sharks\JamesTest2\JamesTest2\obj\Debug\REDSHED.csproj.ResolveComReference.cache
+C:\Users\James\Documents\Cyber Sharks\JamesTest2\JamesTest2\obj\Debug\JamesTest2.Form1.resources
+C:\Users\James\Documents\Cyber Sharks\JamesTest2\JamesTest2\obj\Debug\JamesTest2.Properties.Resources.resources
+C:\Users\James\Documents\Cyber Sharks\JamesTest2\JamesTest2\obj\Debug\REDSHED.csproj.GenerateResource.Cache
+C:\Users\James\Documents\Cyber Sharks\JamesTest2\JamesTest2\obj\Debug\JamesTest2.exe
+C:\Users\James\Documents\Cyber Sharks\JamesTest2\JamesTest2\obj\Debug\JamesTest2.pdb
+E:\redShed\JamesTest2\bin\Debug\JamesTest2.exe.config
+E:\redShed\JamesTest2\obj\Debug\Interop.MSDAOSP.dll
+E:\redShed\JamesTest2\obj\Debug\Interop.OLEDBError.dll
+E:\redShed\JamesTest2\obj\Debug\REDSHED.csproj.ResolveComReference.cache
+E:\redShed\JamesTest2\obj\Debug\JamesTest2.exe
+E:\redShed\JamesTest2\obj\Debug\JamesTest2.pdb
+E:\redShed\JamesTest2\bin\Debug\Red Shed Inventory.mdb
+E:\redShed\JamesTest2\bin\Debug\JamesTest2.exe
+E:\redShed\JamesTest2\bin\Debug\JamesTest2.pdb
+E:\redShed\JamesTest2\obj\Debug\REDSHED.csprojResolveAssemblyReference.cache
+E:\redShed\JamesTest2\obj\Debug\JamesTest2.Form1.resources
+E:\redShed\JamesTest2\obj\Debug\JamesTest2.Properties.Resources.resources
+E:\redShed\JamesTest2\obj\Debug\REDSHED.csproj.GenerateResource.Cache

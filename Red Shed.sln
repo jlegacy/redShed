@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REDSHED", "JamesTest2\REDSHED.csproj", "{746246E6-953E-4D1A-99C5-DD1EC0191E7B}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "InstallRedShed", "Setup1\InstallRedShed.isproj", "{EF2365DA-4AAC-456D-86D9-CEDAEAA3B70F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{746246E6-953E-4D1A-99C5-DD1EC0191E7B} = {746246E6-953E-4D1A-99C5-DD1EC0191E7B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{746246E6-953E-4D1A-99C5-DD1EC0191E7B}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{746246E6-953E-4D1A-99C5-DD1EC0191E7B}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{746246E6-953E-4D1A-99C5-DD1EC0191E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746246E6-953E-4D1A-99C5-DD1EC0191E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746246E6-953E-4D1A-99C5-DD1EC0191E7B}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{746246E6-953E-4D1A-99C5-DD1EC0191E7B}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{746246E6-953E-4D1A-99C5-DD1EC0191E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746246E6-953E-4D1A-99C5-DD1EC0191E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746246E6-953E-4D1A-99C5-DD1EC0191E7B}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{746246E6-953E-4D1A-99C5-DD1EC0191E7B}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{EF2365DA-4AAC-456D-86D9-CEDAEAA3B70F}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{EF2365DA-4AAC-456D-86D9-CEDAEAA3B70F}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{EF2365DA-4AAC-456D-86D9-CEDAEAA3B70F}.Debug|Any CPU.ActiveCfg = DVD-5
+		{EF2365DA-4AAC-456D-86D9-CEDAEAA3B70F}.Debug|Any CPU.Build.0 = DVD-5
+		{EF2365DA-4AAC-456D-86D9-CEDAEAA3B70F}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{EF2365DA-4AAC-456D-86D9-CEDAEAA3B70F}.DVD-5|Any CPU.Build.0 = DVD-5
+		{EF2365DA-4AAC-456D-86D9-CEDAEAA3B70F}.Release|Any CPU.ActiveCfg = SingleImage
+		{EF2365DA-4AAC-456D-86D9-CEDAEAA3B70F}.Release|Any CPU.Build.0 = SingleImage
+		{EF2365DA-4AAC-456D-86D9-CEDAEAA3B70F}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{EF2365DA-4AAC-456D-86D9-CEDAEAA3B70F}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

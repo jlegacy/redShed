@@ -1,0 +1,12 @@
+E:\redShed\JamesTest2\bin\Release\JamesTest2.exe.config
+E:\redShed\JamesTest2\obj\Release\Interop.MSDAOSP.dll
+E:\redShed\JamesTest2\obj\Release\Interop.OLEDBError.dll
+E:\redShed\JamesTest2\obj\Release\REDSHED.csproj.ResolveComReference.cache
+E:\redShed\JamesTest2\bin\Release\Red Shed Inventory.mdb
+E:\redShed\JamesTest2\bin\Release\JamesTest2.exe
+E:\redShed\JamesTest2\bin\Release\JamesTest2.pdb
+E:\redShed\JamesTest2\obj\Release\JamesTest2.Form1.resources
+E:\redShed\JamesTest2\obj\Release\JamesTest2.Properties.Resources.resources
+E:\redShed\JamesTest2\obj\Release\REDSHED.csproj.GenerateResource.Cache
+E:\redShed\JamesTest2\obj\Release\JamesTest2.exe
+E:\redShed\JamesTest2\obj\Release\JamesTest2.pdb
