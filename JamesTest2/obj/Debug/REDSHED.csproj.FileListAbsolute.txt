@@ -24,3 +24,21 @@ E:\redShed\JamesTest2\obj\Debug\REDSHED.csprojResolveAssemblyReference.cache
 E:\redShed\JamesTest2\obj\Debug\JamesTest2.Form1.resources
 E:\redShed\JamesTest2\obj\Debug\JamesTest2.Properties.Resources.resources
 E:\redShed\JamesTest2\obj\Debug\REDSHED.csproj.GenerateResource.Cache
+F:\redShed\JamesTest2\bin\Debug\JamesTest2.exe.config
+F:\redShed\JamesTest2\obj\Debug\Interop.MSDAOSP.dll
+F:\redShed\JamesTest2\obj\Debug\Interop.OLEDBError.dll
+F:\redShed\JamesTest2\obj\Debug\REDSHED.csproj.ResolveComReference.cache
+F:\redShed\JamesTest2\obj\Debug\JamesTest2.exe
+F:\redShed\JamesTest2\obj\Debug\JamesTest2.pdb
+F:\redShed\JamesTest2\bin\Debug\Red Shed Inventory.mdb
+F:\redShed\JamesTest2\bin\Debug\JamesTest2.exe
+F:\redShed\JamesTest2\bin\Debug\JamesTest2.pdb
+F:\redShed\JamesTest2\obj\Debug\JamesTest2.Form1.resources
+F:\redShed\JamesTest2\obj\Debug\JamesTest2.Properties.Resources.resources
+F:\redShed\JamesTest2\obj\Debug\REDSHED.csproj.GenerateResource.Cache
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\bin\Debug\JamesTest2.exe.config
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\obj\Debug\Interop.MSDAOSP.dll
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\obj\Debug\Interop.OLEDBError.dll
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\obj\Debug\REDSHED.csproj.ResolveComReference.cache
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\obj\Debug\JamesTest2.exe
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\obj\Debug\JamesTest2.pdb

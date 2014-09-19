@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.red_Shed_InventoryDataSet = new JamesTest2.Red_Shed_InventoryDataSet();
@@ -38,14 +38,14 @@
             this.sheet1TableAdapter = new JamesTest2.Red_Shed_InventoryDataSetTableAdapters.Sheet1TableAdapter();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.ManufacturerComboBox = new System.Windows.Forms.ComboBox();
-            this.red_Shed_InventoryDataSet1 = new JamesTest2.Red_Shed_InventoryDataSet1();
             this.vendorReferenceLookupBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.red_Shed_InventoryDataSet1 = new JamesTest2.Red_Shed_InventoryDataSet1();
             this.vendorReferenceLookupTableAdapter = new JamesTest2.Red_Shed_InventoryDataSet1TableAdapters.VendorReferenceLookupTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.red_Shed_InventoryDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sheet1BindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.red_Shed_InventoryDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vendorReferenceLookupBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.red_Shed_InventoryDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -64,23 +64,23 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.Location = new System.Drawing.Point(47, 152);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1100, 500);
@@ -106,7 +106,7 @@
             // 
             this.richTextBox1.BackColor = System.Drawing.SystemColors.WindowText;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.ForeColor = System.Drawing.Color.Red;
             this.richTextBox1.Location = new System.Drawing.Point(47, 2);
             this.richTextBox1.Name = "richTextBox1";
@@ -130,15 +130,16 @@
             this.ManufacturerComboBox.ValueMember = "Manufacturer";
             this.ManufacturerComboBox.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // red_Shed_InventoryDataSet1
-            // 
-            this.red_Shed_InventoryDataSet1.DataSetName = "Red_Shed_InventoryDataSet1";
-            this.red_Shed_InventoryDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // vendorReferenceLookupBindingSource
             // 
             this.vendorReferenceLookupBindingSource.DataMember = "VendorReferenceLookup";
             this.vendorReferenceLookupBindingSource.DataSource = this.red_Shed_InventoryDataSet1;
+            this.vendorReferenceLookupBindingSource.CurrentChanged += new System.EventHandler(this.vendorReferenceLookupBindingSource_CurrentChanged);
+            // 
+            // red_Shed_InventoryDataSet1
+            // 
+            this.red_Shed_InventoryDataSet1.DataSetName = "Red_Shed_InventoryDataSet1";
+            this.red_Shed_InventoryDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // vendorReferenceLookupTableAdapter
             // 
@@ -160,8 +161,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.red_Shed_InventoryDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sheet1BindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.red_Shed_InventoryDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.vendorReferenceLookupBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.red_Shed_InventoryDataSet1)).EndInit();
             this.ResumeLayout(false);
 
         }

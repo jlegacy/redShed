@@ -72,7 +72,7 @@ namespace JamesTest2
 
             DataSet dataset = new DataSet();
 
-            string selectCommand = "select * from Sheet1 where Manufacturer = ('" + value + "') OR SKU = ('" + value + "')";
+            string selectCommand = "select * from Sheet1 where Manufacturer = ('" + value + "') OR SKU = ('" + value + "') order by SKU" ;
 
             using (OleDbConnection connection =
             new OleDbConnection(Properties.Settings.Default.Red_Shed_InventoryConnectionString))
@@ -92,6 +92,11 @@ namespace JamesTest2
             //if the row count = 0 then the qurey return nothing
             if (dataGridView1.Rows.Count == 0)
                 MessageBox.Show("Record Not Found");
+        }
+
+        private void vendorReferenceLookupBindingSource_CurrentChanged(object sender, System.EventArgs e)
+        {
+
         }
 
         }
