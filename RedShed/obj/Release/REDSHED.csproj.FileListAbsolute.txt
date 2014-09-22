@@ -1,0 +1,48 @@
+E:\redShed\JamesTest2\bin\Release\JamesTest2.exe.config
+E:\redShed\JamesTest2\obj\Release\Interop.MSDAOSP.dll
+E:\redShed\JamesTest2\obj\Release\Interop.OLEDBError.dll
+E:\redShed\JamesTest2\obj\Release\REDSHED.csproj.ResolveComReference.cache
+E:\redShed\JamesTest2\bin\Release\Red Shed Inventory.mdb
+E:\redShed\JamesTest2\bin\Release\JamesTest2.exe
+E:\redShed\JamesTest2\bin\Release\JamesTest2.pdb
+E:\redShed\JamesTest2\obj\Release\JamesTest2.Form1.resources
+E:\redShed\JamesTest2\obj\Release\JamesTest2.Properties.Resources.resources
+E:\redShed\JamesTest2\obj\Release\REDSHED.csproj.GenerateResource.Cache
+E:\redShed\JamesTest2\obj\Release\JamesTest2.exe
+E:\redShed\JamesTest2\obj\Release\JamesTest2.pdb
+F:\redShed\JamesTest2\bin\Release\JamesTest2.exe.config
+F:\redShed\JamesTest2\obj\Release\Interop.MSDAOSP.dll
+F:\redShed\JamesTest2\obj\Release\Interop.OLEDBError.dll
+F:\redShed\JamesTest2\obj\Release\REDSHED.csproj.ResolveComReference.cache
+F:\redShed\JamesTest2\obj\Release\JamesTest2.exe
+F:\redShed\JamesTest2\obj\Release\JamesTest2.pdb
+F:\redShed\JamesTest2\bin\Release\Red Shed Inventory.mdb
+F:\redShed\JamesTest2\bin\Release\JamesTest2.exe
+F:\redShed\JamesTest2\bin\Release\JamesTest2.pdb
+F:\redShed\JamesTest2\obj\Release\JamesTest2.Form1.resources
+F:\redShed\JamesTest2\obj\Release\JamesTest2.Properties.Resources.resources
+F:\redShed\JamesTest2\obj\Release\REDSHED.csproj.GenerateResource.Cache
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\bin\Release\JamesTest2.exe.config
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\obj\Release\Interop.MSDAOSP.dll
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\obj\Release\Interop.OLEDBError.dll
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\obj\Release\REDSHED.csproj.ResolveComReference.cache
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\obj\Release\JamesTest2.exe
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\obj\Release\JamesTest2.pdb
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\bin\Release\Red Shed Inventory.mdb
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\bin\Release\JamesTest2.exe
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\bin\Release\JamesTest2.pdb
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\obj\Release\JamesTest2.Form1.resources
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\obj\Release\JamesTest2.Properties.Resources.resources
+C:\Users\jlegacy\Desktop\redShed\JamesTest2\obj\Release\REDSHED.csproj.GenerateResource.Cache
+C:\Users\jlegacy\Desktop\redShed\RedShed\bin\Release\Red Shed Inventory.mdb
+C:\Users\jlegacy\Desktop\redShed\RedShed\bin\Release\RedShed.exe.config
+C:\Users\jlegacy\Desktop\redShed\RedShed\bin\Release\RedShed.exe
+C:\Users\jlegacy\Desktop\redShed\RedShed\bin\Release\RedShed.pdb
+C:\Users\jlegacy\Desktop\redShed\RedShed\obj\Release\Interop.MSDAOSP.dll
+C:\Users\jlegacy\Desktop\redShed\RedShed\obj\Release\Interop.OLEDBError.dll
+C:\Users\jlegacy\Desktop\redShed\RedShed\obj\Release\REDSHED.csproj.ResolveComReference.cache
+C:\Users\jlegacy\Desktop\redShed\RedShed\obj\Release\RedShed.Form1.resources
+C:\Users\jlegacy\Desktop\redShed\RedShed\obj\Release\RedShed.Properties.Resources.resources
+C:\Users\jlegacy\Desktop\redShed\RedShed\obj\Release\REDSHED.csproj.GenerateResource.Cache
+C:\Users\jlegacy\Desktop\redShed\RedShed\obj\Release\RedShed.exe
+C:\Users\jlegacy\Desktop\redShed\RedShed\obj\Release\RedShed.pdb

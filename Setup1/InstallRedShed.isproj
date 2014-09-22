@@ -29,7 +29,7 @@
 	</ItemGroup>
 	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2013Limited\InstallShield.targets"/>
 	<ItemGroup>
-		<ProjectReference Include="..\JamesTest2\REDSHED.csproj">
+		<ProjectReference Include="..\RedShed\REDSHED.csproj">
 			<Name>REDSHED</Name>
 			<Project>{746246E6-953E-4D1A-99C5-DD1EC0191E7B}</Project>
 		</ProjectReference>
