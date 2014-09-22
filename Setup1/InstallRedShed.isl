@@ -341,8 +341,7 @@
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{43569EBC-4050-45E0-BDA2-445E1B8BE684}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>NewComponent1</td><td>{94AE8349-DC7B-4073-9508-F097D17EF887}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>REDSHED.Primary_output</td><td>{04D53A09-05B9-4917-83C9-24B9A380863E}</td><td>DATABASEDIR</td><td>2</td><td/><td>redshed.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>REDSHED.Primary_output1</td><td>{D7E13230-A256-43DC-A282-3B56DEC7223E}</td><td>INSTALLDIR</td><td>2</td><td/><td>redshed.primary_output1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>REDSHED.Primary_output</td><td>{CEABE083-9C0E-42AE-A2AB-4FFB93D69C2C}</td><td>INSTALLDIR</td><td>2</td><td/><td>redshed.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1051,6 +1050,7 @@
 	<table name="CreateFolder">
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>INSTALLDIR</td><td>NewComponent1</td></row>
 	</table>
 
@@ -1867,7 +1867,6 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>NewComponent1</td></row>
 		<row><td>AlwaysInstall</td><td>REDSHED.Primary_output</td></row>
-		<row><td>AlwaysInstall</td><td>REDSHED.Primary_output1</td></row>
 	</table>
 
 	<table name="File">
@@ -1882,9 +1881,7 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>red_shed_inventory.mdb</td><td>ISX_DEFAULTCOMPONENT</td><td>REDSHE~1.MDB|Red Shed Inventory.mdb</td><td>0</td><td/><td/><td/><td>1</td><td>E:\redShed\JamesTest2\bin\Debug\Red Shed Inventory.mdb</td><td>1</td><td/></row>
 		<row><td>redshed.primary_output</td><td>REDSHED.Primary_output</td><td>REDSHED.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;REDSHED&gt;|Built</td><td>3</td><td/></row>
-		<row><td>redshed.primary_output1</td><td>REDSHED.Primary_output1</td><td>REDSHED.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;REDSHED&gt;|Built</td><td>3</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -1902,6 +1899,7 @@
 		<col def="S255">Data</col>
 		<row><td>PROJECT_ASSISTANT_DEFAULT_FEATURE</td><td>AlwaysInstall</td></row>
 		<row><td>PROJECT_ASSISTANT_FEATURES</td><td>NonSelectable</td></row>
+		<row><td>UNINST_Uninstall_RedShed</td><td/></row>
 	</table>
 
 	<table name="ISBillBoard">
@@ -2030,8 +2028,7 @@
 		<col def="S0">Miscellaneous</col>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_D2963CA3_CBCA_4BBF_9E79_F2DB3BD792B3_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>NewComponent1</td><td/><td/><td>_3845017C_D7C7_42F8_B66A_3688D39D7167_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>REDSHED.Primary_output</td><td/><td/><td>_D6EADF90_A975_4F71_83D4_1093A50DDE58_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>REDSHED.Primary_output1</td><td/><td/><td>_CBCB5756_A44E_415F_B0F7_16B473195E9A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>REDSHED.Primary_output</td><td/><td/><td>_FE42B790_7210_4C85_A83D_C1E32E263151_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -3462,6 +3459,7 @@
 		<row><td>IDS_SETUPEXE_EXPIRE_MSG</td><td>1033</td><td>This setup works until %s. The setup will now exit.</td><td>0</td><td/><td>-64821104</td></row>
 		<row><td>IDS_SETUPEXE_LAUNCH_COND_E</td><td>1033</td><td>This setup was built with an evaluation version of InstallShield and can only be launched from setup.exe.</td><td>0</td><td/><td>-64821104</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>RedShed</td><td>0</td><td/><td>-64820752</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td>RedShed</td><td>0</td><td/><td>-1264422644</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>-64821104</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>-64821104</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>-64821104</td></row>
@@ -3754,6 +3752,7 @@
 		<row><td>ID_STRING2</td><td>1033</td><td>CyberSharks</td><td>0</td><td/><td>-64878416</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>Launch |Built</td><td>0</td><td/><td>-64831152</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td/><td>0</td><td/><td>-64834704</td></row>
+		<row><td>ID_STRING5</td><td>1033</td><td>RedShed</td><td>0</td><td/><td>-1264416308</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-64821104</td></row>
 	</table>
 
@@ -3862,8 +3861,10 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
-		<row><td>UNINST_Uninstall_R_935F5144441D44FE9C4DDC0FB0394F1A.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2013LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
 		<row><td>UNINST_Uninstall_R_DB11861A53B643F2ADC8CDA98DEBD08D.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2013LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
+		<row><td>UNINST_Uninstall_R_DEF7ADE0E3B144A7AE225EBE4094803F.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2013LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
+		<row><td>_Built1_1E9A569748F14D9091D98489AAC31852.exe</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
+		<row><td>_Built_D902201C84B943E6994AFEF972CEBDE9.exe</td><td/><td>&lt;ISProductFolder&gt;\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -3996,7 +3997,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{E71B8857-A675-49F2-A9B4-753129BA17D4}</td></row>
 		<row><td>ISUSSignature</td><td>{CA1CF7AF-CF0F-4640-B469-20C9FA6CE107}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewAppV,viewISToday</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewAppV,viewISToday,viewShortcuts</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4445,10 +4446,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L255">FileName</col>
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
-		<row><td>FileKey1</td><td>REDSHED.Primary_output1</td><td/><td>cybers_1_cybersharks</td><td>2</td></row>
-		<row><td>FileKey2</td><td>REDSHED.Primary_output1</td><td/><td>redshed</td><td>2</td></row>
 		<row><td>UNINST_Uninstall_RedShed</td><td>NewComponent1</td><td/><td>redshed</td><td>2</td></row>
-		<row><td>_Built</td><td>REDSHED.Primary_output1</td><td/><td>redshed</td><td>2</td></row>
+		<row><td>_Built</td><td>REDSHED.Primary_output</td><td/><td>redshed</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4534,10 +4533,10 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>UNINST_Uninstall_RedShed</td><td>redshed</td><td>UNINST|Uninstall RedShed</td><td>NewComponent1</td><td>[SystemFolder]msiexec.exe</td><td>/x {4F55114B-E99E-4DB9-8698-2A3BE6BE46E3}</td><td/><td/><td>UNINST_Uninstall_R_935F5144441D44FE9C4DDC0FB0394F1A.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>UNINST_Uninstall_RedShed</td><td>redshed</td><td>UNINST|Uninstall RedShed</td><td>NewComponent1</td><td>[SystemFolder]msiexec.exe</td><td>/x {4F55114B-E99E-4DB9-8698-2A3BE6BE46E3}</td><td/><td/><td>UNINST_Uninstall_R_DEF7ADE0E3B144A7AE225EBE4094803F.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>UNINST_Uninstall_RedShed1</td><td>DesktopFolder</td><td>UNINST|Uninstall RedShed</td><td>NewComponent1</td><td>[SystemFolder]msiexec.exe</td><td>/x {4F55114B-E99E-4DB9-8698-2A3BE6BE46E3}</td><td/><td/><td>UNINST_Uninstall_R_DB11861A53B643F2ADC8CDA98DEBD08D.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>_Built</td><td>redshed</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>REDSHED.Primary_output1</td><td>AlwaysInstall</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>_Built1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>REDSHED.Primary_output1</td><td>AlwaysInstall</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_Built</td><td>redshed</td><td>##IDS_SHORTCUT_DISPLAY_NAME2##</td><td>REDSHED.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built_D902201C84B943E6994AFEF972CEBDE9.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_Built1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME2##</td><td>REDSHED.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built1_1E9A569748F14D9091D98489AAC31852.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
